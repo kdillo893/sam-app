@@ -33,6 +33,11 @@ def lambda_handler(event, context):
 
     #     raise e
 
+    # capturing some values that are passed to the lambda via provided event...
+    first_name = event['first_name']
+    last_name = event['last_name']
+    message = event['message']
+
     return {
         "statusCode": 200,
         "body": json.dumps({

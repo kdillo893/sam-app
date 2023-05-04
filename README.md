@@ -1,3 +1,15 @@
+# Learning AWS tools like SAM for serverless stuff
+
+An aspect of things working, I was introduced to a serverless architecture. This is mainly for me to learn using AWS SAM basics to test around their platform to figure out "how do I follow a serverless dev flow?" and "how do I monitor and 
+
+Following tutorials like these, for reference (the root of this code is currently not original, but based off learning from these references)
+* https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-invoke.html
+* https://www.youtube.com/watch?v=fEZE3rm8Ma8 - walking through the deploy and local usage of SAM.
+* https://aws.amazon.com/serverless/sam/ - for general instructions on installation and usage.
+* ``` sam init ``` => this provides quick template installs for various serverless applications.
+
+Below is the README.md original from the template provided by ```sam init```
+
 # sam-app
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
